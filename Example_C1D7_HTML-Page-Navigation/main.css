@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 106, 255, 0.384);
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px 22px;
+    min-height: 80px;
+    height: 80px;
+    background: #1f1f1f;
+    white-space: nowrap;
+    overflow: hidden;
+    top: o;
+    z-index: 1000;
+}
+
+nav > a {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 1080px;
+}
+
+nav img {
+    display:inline-block;
+    vertical-align: middle;
+    max-height: 48px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.spacer {
+    /* Parent width - Logo width - Menu <ul> width */
+    width: calc(100% - 280px - 276px);
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+#last-item {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+.content-wrapper {
+    display: block;
+    width: 100%;
+    height: 650px;
+    padding-top: 80px;
+    position: sticky;
+    top: 0;
+    overflow: visible;
+}
+
+header{
+    display: inline-block;
+    text-align: center;    
+    width: 100%;
+    padding-top: 10px;
+    position: sticky;
+    top:0;
+
+}
+
+h1{    
+    color: black;
+    vertical-align: top;
+}
+
+main p{
+    color: black;
+}
+
+.hamster-img-left {
+    border: 3px solid yellow;
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    width: 35%; /* または、必要なサイズに設定 */
+    height: auto; /* アスペクト比を保つために自動設定 */
+}
+
+.hamster-img-right {
+    border: 3px solid yellow;
+    float: right;
+    
+    margin: 10px;
+    margin-right: 40px;
+    width: 35%; /* または、必要なサイズに設定 */
+    height: auto; /* アスペクト比を保つために自動設定 */
+}
+
+.hamster-right{
+    border: 3px solid pink;
+    float: right;    
+    margin: 10px;
+    margin-right: 150px;
+    width: 400px; /* または、必要なサイズに設定 */
+    height: auto; /* アスペクト比を保つために自動設定 */
+}
+
+.hamster-left{
+    border: 3px solid pink;
+    float: left;    
+    margin: 10px;
+    margin-left: 150px;
+    width: 400px; /* または、必要なサイズに設定 */
+    height: auto; /* アスペクト比を保つために自動設定 */
+}
+
+
+
+.leaf-img{
+    border: 3px solid yellow;
+    display: block;
+    margin-left: 146px;
+    width: 880px; 
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    background: #1f1f1f;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+footer ul {
+    display: block;
+    margin-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+footer ul li {
+    text-align: center;
+    color: rgba(0, 106, 255, 0.384);
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px
+
+}
+
+footer p {
+    padding-top: 15px;
+    color: aliceblue;
+    margin-top: 0;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+
+.footer_p {
+    display: block;
+    border-top: 0.5px solid white;
+    margin: 5px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Basic Nav Example</title>
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <picture>
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="./assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="./assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="./assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="./assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="./assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+        <span class="spacer"></span>
+        <ul>
+            <li><a href="#" id="current-page">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/services.html">Services</a></li>
+            <li id="last-item"><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="top">
+        <div class="content-wrapper">
+            <header>
+                <h1 style="text-align: center;">My Webpage</h1>
+            </header>
+            <picture>
+                <img src="./imgs/kim-green-hamster_small.jpg" alt="small picture" class="hamster-img-left">
+            </picture>
+            <p class="float-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Veritatis ab harum voluptas omnis nobis accusamus ipsa voluptate 
+                enim dolorum architecto. Harum fugiat eum, veritatis quasi iusto 
+                optio necessitatibus architecto exercitationem? Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Ipsa qui, esse ab dolor 
+                voluptatibus vitae quasi! Aliquid similique error quam. Ad delectus 
+                eum a, veritatis dolorum maiores. Nisi, cumque non. Lorem ipsum, dolor 
+                sit amet consectetur adipisicing elit. Vitae tempora maxime ipsa est,
+                in, sint tenetur omnis facilis ullam earum cupiditate minima quae ea 
+                eaque possimus ipsam! Doloremque, exercitationem odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Veritatis ab harum voluptas omnis nobis accusamus ipsa voluptate 
+                enim dolorum architecto. Harum fugiat eum, veritatis quasi iusto 
+                optio necessitatibus architecto exercitationem? Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Ipsa qui, esse ab dolor 
+                voluptatibus vitae quasi! Aliquid similique error quam. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vero dolore, dicta error, 
+                sequi facere officiis ipsa amet eum, dolorum dolorem numquam? Atque eligendi et autem ullam quidem commodi earum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, perferendis dolore quae illo maxime expedita aut consequuntur porro, voluptatum quod corrupti modi itaque quam placeat qui vero harum eos voluptas.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sit, recusandae laudantium a neque obcaecati quasi ex nesciunt, consectetur voluptates molestias possimus id expedita reprehenderit, architecto repellat optio magni quia.                
+            </p>
+        </div> 
+    </main>
+
+    <footer>
+        
+        <ul>
+            <li><a href="#" aria-label="FAQ">FAQ</a></li>
+            <li><a href="#" aria-label="Terms">Terms</a></li>
+            <li><a href="#" aria-label="Privacy">Privacy</a></li>
+            <li><a href="#" aria-label="Cookies">Cookies</a></li>
+        </ul>
+        <div class= "footer_p" >
+        <p>© 2024 My Website</p>
+        </div>
+    </footer>
+
+</body>
+</html>
